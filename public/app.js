@@ -3,7 +3,7 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } f
 import { getFirestore } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBZWYpcdYXPr2LLbWsVmcHOy4nblzyEVF4",
+    apiKey: "GOOGLE_API_KEY",
     authDomain: "mywebapp-35ca8.firebaseapp.com",
     projectId: "mywebapp-35ca8",
     storageBucket: "mywebapp-35ca8.firebasestorage.app",
