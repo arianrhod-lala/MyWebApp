@@ -16,6 +16,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 const db = getFirestore();
 
+// Toggle between login and register forms on the landing page
 const loginToggle = document.getElementById('loginToggle');
 const registerToggle = document.getElementById('registerToggle');
 const loginForm = document.getElementById('loginForm');
